@@ -6,7 +6,7 @@
 
 此Repo用于存储USBAirBorne相关的代码(修改过的Autorun.inf)、实验结果等。
 
-## 另外请特别注意，此Repo仅供学习参考USBAirborne工具的相关用法，不具备其他功能，请勿用于其他途径。
+## 此Repo仅供学习参考USBAirborne工具的相关用法,请勿用于其他途径。使用者行为与此Repo作者无关。
 
 
 ### 0x0 Autorun.inf 
@@ -42,9 +42,9 @@ c:\windows\system32\ieframe.dll
 
 ### 0x2 设备名称
 
-建议设置一个和图标相配合的名称，例如若图标为MP3，那么可命名为便携式音频设备。
+可以设置一个和图标相配合的名称，例如若图标为MP3，那么可命名为便携式音频设备。
 
-***注意，如果含有中文字符，Autorun.inf 务必以 ANSI 的形式保存，否则乱码。***
+***注意，如果含有中文字符，Autorun.inf 必须 ANSI 的形式保存，否则右键菜单乱码。***
 
 ### 0x3 自动执行的文件
 
@@ -54,4 +54,4 @@ c:\windows\system32\ieframe.dll
 set-executionpolicy -executionpolicy unrestricted
 ```
 
-### 0x4 等待后续测试 . . .
+### 0x4 To be continued . . .
